@@ -14,8 +14,6 @@ J = 0;
 %               You should set J to the cost.
 
 
-xTheta = X * theta;
-diff = xTheta - y;
 J = (1/(2*m)) * (X*theta-y)' * (X*theta-y);
 
 % =========================================================================
